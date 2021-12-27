@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ScreenTransition
+//  ScreenTransaction
 //
-//  Created by gyeongtae on 2021/12/26.
+//  Created by gyeongtae on 2021/12/27.
 //
 
 import UIKit
