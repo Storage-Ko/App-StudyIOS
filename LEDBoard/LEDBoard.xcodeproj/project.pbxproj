@@ -13,6 +13,7 @@
 		0E2F417327796F5800735F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F417127796F5800735F09 /* Main.storyboard */; };
 		0E2F417527796F5A00735F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F417427796F5A00735F09 /* Assets.xcassets */; };
 		0E2F417827796F5A00735F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2F417627796F5A00735F09 /* LaunchScreen.storyboard */; };
+		0E2F41802779909400735F09 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2F417F2779909400735F09 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E2F417427796F5A00735F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2F417727796F5A00735F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2F417927796F5A00735F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2F417F2779909400735F09 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E2F417427796F5A00735F09 /* Assets.xcassets */,
 				0E2F417627796F5A00735F09 /* LaunchScreen.storyboard */,
 				0E2F417927796F5A00735F09 /* Info.plist */,
+				0E2F417F2779909400735F09 /* SettingViewController.swift */,
 			);
 			path = LEDBoard;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				0E2F417027796F5800735F09 /* ViewController.swift in Sources */,
 				0E2F416C27796F5800735F09 /* AppDelegate.swift in Sources */,
 				0E2F416E27796F5800735F09 /* SceneDelegate.swift in Sources */,
+				0E2F41802779909400735F09 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
