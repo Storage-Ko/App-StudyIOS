@@ -34,13 +34,14 @@ class ViewController: UIViewController {
       print("ViewController 뷰가 사라졌다.")
     }
     @IBAction func tapCodePushButton(_ sender: UIButton) {
-        guard let viewController = self.storyboard?.instantiateViewController(identifier: "CodePushViewController")
-        else { return }
+        guard let viewController = self.storyboard?.instantiateViewController(identifier: "CodePushViewController") as? CodePushViewController else { return }
+        viewController.name = "Gunter"
         self.navigationController?.pushViewController(viewController, animated: true)
     }
     @IBAction func tapCodePresentButton(_ sender: UIButton) {
-        guard let viewController = self.storyboard?.instantiateViewController(identifier: "CodePresentViewController") else { return }
+        guard let viewController = self.storyboard?.instantiateViewController(identifier: "CodePresentViewController") as? CodePresentViewController else { return }
         viewController.modalPresentationStyle = .fullScreen
+        viewController.name = "Gunter"
         self.present(viewController, animated: true, completion: nil)
     }
 }
